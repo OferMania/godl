@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://c75a1fduw5y6p"]
+
+[ext_resource type="Texture2D" uid="uid://c6m3gffft2ied" path="res://Assets/game_of_life_template_by_soluna17_deo8ns0-fullview.jpg" id="1_l756w"]
+[ext_resource type="Script" uid="uid://btglmgre3jf3j" path="res://Scripts/main_game.gd" id="1_pu3va"]
+[ext_resource type="Texture2D" uid="uid://cm0m5kda5ixj2" path="res://Assets/cell.png" id="3_0e3vx"]
+
+[node name="MainGame" type="Node2D" unique_id=281416337]
+script = ExtResource("1_pu3va")
+
+[node name="Board" type="TextureRect" parent="." unique_id=378041945]
+offset_left = 241.0
+offset_top = 2.0
+offset_right = 1521.0
+offset_bottom = 1292.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_l756w")
+
+[node name="TextureRect" type="TextureRect" parent="Board" unique_id=704839466]
+layout_mode = 0
+offset_left = 560.0
+offset_top = 1110.0
+offset_right = 624.0
+offset_bottom = 1174.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_0e3vx")

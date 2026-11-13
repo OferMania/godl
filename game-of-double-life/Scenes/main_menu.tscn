@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cslt7r3xnl2rd"]
+
+[ext_resource type="Script" uid="uid://ds6mmtjdil6fy" path="res://Scripts/main_menu.gd" id="1_28flt"]
+
+[node name="MainMenu" type="Node2D" unique_id=408718375]
+script = ExtResource("1_28flt")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=268861661]
+offset_left = 2.0
+offset_top = 69.0
+offset_right = 1150.0
+offset_bottom = 243.0
+theme_override_font_sizes/normal_font_size = 48
+text = "The Game of Double Life"
+horizontal_alignment = 1
+vertical_alignment = 1
